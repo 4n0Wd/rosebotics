@@ -1,5 +1,5 @@
 """
-  Capstone Project.  Code written by Michelle.
+  Capstone Project.  Code written by Michelle
   Fall term, 2018-2019.
 """
 
