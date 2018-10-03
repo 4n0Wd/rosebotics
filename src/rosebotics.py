@@ -38,7 +38,7 @@ class Snatch3rRobot(object):
             self.left_wheel.stop_spinning(stop_action)
             self.right_wheel.start_spinning(right_wheel_duty_cycle_percent)
             print(time.time() - s)
-            if time.time() - s > timeu:
+            if time.time() - s >  timeu:
                 self.right_wheel.stop_spinning(stop_action)
                 break
 
