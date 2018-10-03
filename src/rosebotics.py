@@ -27,6 +27,9 @@ class Snatch3rRobot(object):
         self.left_wheel.stop_spinning(stop_action)
         self.right_wheel.stop_spinning(stop_action)
 
+    def forward(self, time, left_wheel_duty_cycle_percent=100, right_wheel_duty_cycle_percent=100):
+        print(time.time())
+
 
 class Wheel(object):
     def __init__(self, port, default_duty_cycle_percent=100,

@@ -34,6 +34,7 @@ def run_test_go_stop():
     robot.go(100, 100)
     time.sleep(3)
     robot.stop(rb.StopAction.COAST.value)
+    robot.forward(10)
 
     print(robot.right_wheel.get_degrees_spun())
     print(robot.left_wheel.get_degrees_spun())
